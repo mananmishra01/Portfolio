@@ -9,15 +9,18 @@ export const metadata: Metadata = {
   description: "UI/UX & Embedded Engineering Portfolio",
 };
 
+import { Analytics } from '@vercel/analytics/react';
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-[#121212] text-white antialiased`}>
+    <html lang="en">
+      <body>
         {children}
+        <Analytics />
       </body>
     </html>
   );
