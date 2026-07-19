@@ -60,7 +60,7 @@ const HangingIDCard = ({ className = "" }: { className?: string }) => {
 
           {/* Header */}
           <div className="text-center font-mono text-[9px] tracking-[0.2em] text-gray-400 uppercase mt-2 mb-4 border-b border-white/10 pb-2">
-            Visitor Pass
+            Student Pass
           </div>
 
           {}
@@ -79,14 +79,14 @@ const HangingIDCard = ({ className = "" }: { className?: string }) => {
           {/* User Details */}
           <div className="text-center space-y-1 mb-6">
             <h3 className="text-white font-bold tracking-widest uppercase text-sm drop-shadow-md">Anand Mishra</h3>
-            <p className="text-[#00E5FF] font-mono text-[10px] tracking-wider uppercase drop-shadow-md">CS Explorer</p>
+            <p className="text-[#00E5FF] font-mono text-[10px] tracking-wider uppercase drop-shadow-md">Computer Science Student</p>
           </div>
 
           {}
           <div className="mt-auto">
             <div className="flex justify-between items-end mb-2">
-              <div className="font-mono text-[7px] text-gray-400">ID: 8492-AX</div>
-              <div className="font-mono text-[7px] text-[#FF0055] animate-pulse">SYS.ACCESS</div>
+              <div className="font-mono text-[7px] text-gray-400">Gautam Buddha Uni</div>
+              <div className="font-mono text-[7px] text-[#FF0055] animate-pulse">ICT</div>
             </div>
             {/* Fake Generated Barcode - Fixed Hydration Error */}
             <div className="w-full h-6 flex gap-[2px] opacity-50">
@@ -204,7 +204,7 @@ export default function App() {
             </p>
             <div className="flex gap-6 relative z-10">
               <a href="#work" className="px-8 py-3 bg-gradient-to-r from-[#00E5FF] to-[#7B3FE4] text-white font-bold rounded-full text-sm uppercase tracking-wider hover:shadow-[0_0_30px_rgba(123,63,228,0.5)] hover:scale-105 transition-all">
-                View Projects
+                See Builds
               </a>
               <a href="#contact" className="px-8 py-3 border border-white/20 text-white font-bold rounded-full text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                 Get In Touch
