@@ -45,7 +45,7 @@ export default function ResumePage() {
               Anand Mishra
             </h1>
             <h2 className="text-[#00E5FF] print:text-gray-800 font-mono tracking-[0.15em] text-sm uppercase font-bold">
-              UI|UX | CSE Core
+              UI|UX Developer | CSE Core
             </h2>
             
             <div className="flex flex-wrap gap-x-6 gap-y-2 mt-6 font-mono text-[11px] sm:text-xs text-gray-400 print:text-gray-600">
