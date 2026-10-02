@@ -197,7 +197,7 @@ export default function App() {
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#7B3FE4]/10 to-transparent pointer-events-none" />
             
             <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.1] mb-6 tracking-tight relative z-10">
-              CS STUDENT EXPLORING <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00E5FF] to-[#B983FF] drop-shadow-[0_0_20px_rgba(0,229,255,0.4)]">SOFTWARE & SYSTEMS</span>.
+              CSE STUDENT EXPLORING <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00E5FF] to-[#B983FF] drop-shadow-[0_0_20px_rgba(0,229,255,0.4)]">SOFTWARE & SYSTEMS</span>.
             </h1>
             <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-10 font-light relative z-10">
               Passionate about full-stack development, tinkering with hardware, and learning by building.
